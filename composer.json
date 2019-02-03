@@ -1,0 +1,21 @@
+{
+    "name": "artemiovegas/monastyrevtask",
+    "description": "This is code for test project from Monastyrev Company",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artyom Kotov",
+            "email": "afyc@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ArtemioVegas\\MonastyrevTask\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "respect/validation": "^1.1"
+    }
+}
