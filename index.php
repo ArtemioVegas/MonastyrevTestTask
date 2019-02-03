@@ -35,6 +35,3 @@ function match(int $firstTeam, int $secondTeam) : array
 
     return [Helper::calculateScoredGoals($lambdaFirstTeam), Helper::calculateScoredGoals($lambdaSecondTeam)];
 }
-echo '<pre>';
-var_dump(match(0,21));
-echo '</pre>';
